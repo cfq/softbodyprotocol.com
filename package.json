@@ -1,0 +1,11 @@
+{
+  "name": "softbodyprotocol-dotcom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "rsync -Pruvaz dist/ cfq@softbodyprotocol.com:/var/www/html/"
+  },
+  "author": "",
+  "license": "ISC"
+}
